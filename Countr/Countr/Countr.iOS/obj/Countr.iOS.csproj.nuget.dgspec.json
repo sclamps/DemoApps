@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.iOS/Countr.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/Countr.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/Countr.Core.csproj",
+        "projectName": "Countr.Core",
+        "projectPath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/Countr.Core.csproj",
+        "packagesPath": "/Users/scott.clampett/.nuget/packages/",
+        "outputPath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/scott.clampett/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.4"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/orbital-drop-bear/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.4": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.4": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Binding": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Core": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Platform": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wpa81"
+          ],
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.iOS/Countr.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.iOS/Countr.iOS.csproj",
+        "projectName": "Countr.iOS",
+        "projectPath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.iOS/Countr.iOS.csproj",
+        "packagesPath": "/Users/scott.clampett/.nuget/packages/",
+        "outputPath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/scott.clampett/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/orbital-drop-bear/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/Countr.Core.csproj": {
+                "projectPath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/Countr.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Binding": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Core": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Platform": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

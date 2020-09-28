@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D0F1C22D-91FA-4A50-87A1-DE0C2D3BBE3D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Countr.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Countr.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Countr.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Countr.Tests/Test.cs">
+    <Files>
+      <File FileName="Countr.Tests/Test.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Countr" expanded="True">
+            <Node name="Countr.Core" expanded="True" />
+            <Node name="Countr.Tests" expanded="True">
+              <Node name="Test.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Countr.Droid FirstBuild="True" PreferredExecutionTarget="Android.Galaxy_Nexus_API_29" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
