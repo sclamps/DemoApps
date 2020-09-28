@@ -23,6 +23,7 @@ resources;/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/obj/
 resources;/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
 resources;/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/obj/Debug/lp/4/jl/res/xml/empty.xml
 resources;/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/obj/Debug/lp/5/jl/res/values/mvxrecyclerviewbindingattributes.xml
+resources;/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/obj/Debug/lp/7/jl/res/values/strings.xml
 resources;obj/Debug/res/values/arrays.xml
 resources;obj/Debug/res/values/colors.xml
 resources;obj/Debug/res/values/dimens.xml
@@ -31,6 +32,7 @@ resources;obj/Debug/res/values/splashstyle.xml
 resources;obj/Debug/res/values/strings.xml
 resources;obj/Debug/res/values/styles.xml
 resources;obj/Debug/res/values-v21/styles.xml
+string;/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/obj/Debug/lp/7/jl/res/values/strings.xml
 string;obj/Debug/res/values/strings.xml
 string-array;obj/Debug/res/values/arrays.xml
 style;obj/Debug/res/values/splashstyle.xml

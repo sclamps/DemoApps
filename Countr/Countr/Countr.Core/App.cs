@@ -10,6 +10,11 @@ namespace Countr.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
+            
+            CreatableTypes()
+                .EndingWith("Repository")
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
 
             RegisterNavigationServiceAppStart<ViewModels.FirstViewModel>();
         }

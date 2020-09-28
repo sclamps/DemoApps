@@ -11,9 +11,7 @@
         <State name="__root__">
           <Node name="Countr" expanded="True">
             <Node name="Countr.Core" expanded="True" />
-            <Node name="Countr.Tests" expanded="True">
-              <Node name="Test.cs" selected="True" />
-            </Node>
+            <Node name="Countr.Tests" selected="True" />
           </Node>
         </State>
       </Pad>
