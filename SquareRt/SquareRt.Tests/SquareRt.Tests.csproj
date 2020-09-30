@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54C2DD3D-0130-4644-907A-E4DB8F54100C}</ProjectGuid>
+    <ProjectGuid>{BE5BCD0E-D936-4DE9-BF87-215CA5C8A8A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>SquareRt.Tests</RootNamespace>
     <AssemblyName>SquareRt.Tests</AssemblyName>
@@ -34,12 +34,40 @@
       <HintPath>..\packages\Shouldly.3.0.2\lib\net451\Shouldly.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="FakeItEasy">
+      <HintPath>..\packages\FakeItEasy.6.2.1\lib\net45\FakeItEasy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>..\packages\System.Console.4.3.1\lib\net46\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="MvvmCross">
+      <HintPath>..\packages\MvvmCross.7.0.1\lib\net461\MvvmCross.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SquareRtViewModelTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SquareRtCalculatorTests.cs" />
+    <ProjectReference Include="..\SquareRt\SquareRt.Core\SquareRt.Core.csproj">
+      <Project>{2B84B13F-4962-4B4E-8B06-2FBD603387EF}</Project>
+      <Name>SquareRt.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SquareRt\SquareRt.Droid\SquareRt.Droid.csproj">
+      <Project>{d45cb828-b9d0-4b81-b418-e5924d1c88b0}</Project>
+      <Name>SquareRt.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SquareRt\SquareRt.iOS\SquareRt.iOS.csproj">
+      <Project>{4353e4db-4b40-426d-990b-06c927ddcc83}</Project>
+      <Name>SquareRt.iOS</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
