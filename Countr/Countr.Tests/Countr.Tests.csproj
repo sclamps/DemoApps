@@ -35,6 +35,26 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib" />
+    <Reference Include="MvvmCross, Version=7.0.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.7.0.1\lib\net461\MvvmCross.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Core, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Core.5.2.1\lib\net45\MvvmCross.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Platform.5.2.1\lib\net45\MvvmCross.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform.Wpf, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Platform.5.2.1\lib\net45\MvvmCross.Platform.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Wpf, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Core.5.2.1\lib\net45\MvvmCross.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SQLite-net, Version=1.7.335.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\sqlite-net-pcl.1.7.335\lib\netstandard2.0\SQLite-net.dll</HintPath>
       <Private>True</Private>
@@ -68,6 +88,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Configuration" />
+    <Reference Include="System.Console, Version=4.0.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Console.4.3.1\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
       <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
       <Private>True</Private>
@@ -87,6 +111,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Services\CountersServiceTests.cs" />
+    <Compile Include="ViewModels\CountersViewModelTests.cs" />
+    <Compile Include="ViewModels\CounterViewModelsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Countr\Countr.Core\Countr.Core.csproj">
