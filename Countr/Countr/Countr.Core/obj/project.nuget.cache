@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JsfFs2vAwkToGeTqTSWZLtckyBai4SNusci0QAiaZE2hCqTDJiBulNbBG9ZYdpeZWZ46AP7zWF7cZkDbjQLR9w==",
+  "dgSpecHash": "DbUCtsH7kiPMQvxkPC7jXz1nbDhmKAf8/3sixNF+OBfNZBorwhB8GfFpRcHwJyTpqfN238SnC2bbMucQrB3LOg==",
   "success": true,
   "projectFilePath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/Countr.Core.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/scott.clampett/.nuget/packages/mvvmcross.binding/5.2.1/mvvmcross.binding.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/mvvmcross.core/5.2.1/mvvmcross.core.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/mvvmcross.platform/5.2.1/mvvmcross.platform.5.2.1.nupkg.sha512",
+    "/Users/scott.clampett/.nuget/packages/mvvmcross.plugin.messenger/5.2.1/mvvmcross.plugin.messenger.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/pclstorage/1.0.2/pclstorage.1.0.2.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

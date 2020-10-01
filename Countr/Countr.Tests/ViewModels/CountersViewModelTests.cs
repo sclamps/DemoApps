@@ -1,9 +1,12 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Countr.Core.Models;
+using Countr.Core.Repositories;
 using Countr.Core.Services;
 using Countr.Core.ViewModels;
 using FakeItEasy;
+using MvvmCross.Plugins.Messenger;
 using NUnit.Framework;
 using Shouldly;
 
@@ -14,12 +17,15 @@ namespace Countr.Tests.ViewModels
     {
         CountersViewModel _subject;
         ICountersService _service;
+        IMvxMessenger _messenger;
+        Action<CountersChangedMessage> _publishAction;
 
         [SetUp]
         public void SetUp ()
         {
             _service = A.Fake<ICountersService> ();
-            _subject = new CountersViewModel (_service);
+            _messenger = A.Fake<IMvxMessenger> ();
+            _subject = new CountersViewModel (_service, _messenger );
         }
 
         [Test]

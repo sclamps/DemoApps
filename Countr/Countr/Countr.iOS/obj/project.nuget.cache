@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PebXP7mE14XMvsXx0Jk5abUnivuSMsJ8wSrnujvmCy/rSq5AbU5HndXZX2/ZXJodjx7jGtZfkGd3nXMptazF9A==",
+  "dgSpecHash": "EplSQmFbZF/BRaJV/0U4b+VI/qeIulUCU/vI0d5rVKbxoAdasKHKxfDfqVrocr4pbz7Pee1XtUHPh/Ya8Ugbqw==",
   "success": true,
   "projectFilePath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.iOS/Countr.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "/Users/scott.clampett/.nuget/packages/mvvmcross.binding/5.2.1/mvvmcross.binding.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/mvvmcross.core/5.2.1/mvvmcross.core.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/mvvmcross.platform/5.2.1/mvvmcross.platform.5.2.1.nupkg.sha512",
+    "/Users/scott.clampett/.nuget/packages/mvvmcross.plugin.messenger/5.2.1/mvvmcross.plugin.messenger.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/pclstorage/1.0.2/pclstorage.1.0.2.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/sqlite-net-pcl/1.6.292/sqlite-net-pcl.1.6.292.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/sqlitepclraw.bundle_green/1.1.13/sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",

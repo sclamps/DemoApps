@@ -3,16 +3,19 @@ using System.Threading.Tasks;
 using Countr.Core.Models;
 using Countr.Core.Services;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Plugins.Messenger;
 
 namespace Countr.Core.ViewModels
 {
     public class CountersViewModel : MvxViewModel
     {
         ICountersService _service;
+        readonly MvxSubscriptionToken _token;
 
-        public CountersViewModel (ICountersService service)
+        public CountersViewModel (ICountersService service, IMvxMessenger messenger)
         {
             _service = service;
+            _token = messenger.SubscribeOnMainThread<CountersChangedMessage> (async m => await LoadCounters ());
             
             Counters = new ObservableCollection<CounterViewModel> ();
         }
@@ -26,9 +29,11 @@ namespace Countr.Core.ViewModels
 
         public async Task LoadCounters ()
         {
+            Counters.Clear ();
+            
             var counters = await _service.GetAllCounters ();
             foreach (var counter in counters) {
-                var viewModel = new CounterViewModel ();
+                var viewModel = new CounterViewModel (_service);
                 viewModel.Prepare(counter);
                 Counters.Add (viewModel);
             }

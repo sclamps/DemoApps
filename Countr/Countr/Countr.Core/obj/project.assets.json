@@ -73,6 +73,18 @@
           "lib/portable-net45+win+wpa81+wp80/MvvmCross.Platform.dll": {}
         }
       },
+      "MvvmCross.Plugin.Messenger/5.2.1": {
+        "type": "package",
+        "dependencies": {
+          "MvvmCross.Platform": "[5.2.1]"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Messenger.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Messenger.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1296,6 +1308,42 @@
         "lib/uap10.0/MvvmCross.Platform.pdb.srcsrv",
         "mvvmcross.platform.5.2.1.nupkg.sha512",
         "mvvmcross.platform.nuspec"
+      ]
+    },
+    "MvvmCross.Plugin.Messenger/5.2.1": {
+      "sha512": "hmPUnLm0ZX5cBQ2qDqkepx1jfFfbZTekgYNsuhnGUUVZ42OlPgCU94zsAlUPyyhwySW4JsXO/rQTa2Y5RDUVLg==",
+      "type": "package",
+      "path": "mvvmcross.plugin.messenger/5.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/MonoAndroid/Bootstrap/MessengerPluginBootstrap.cs.pp",
+        "content/Xamarin.iOS10/Bootstrap/MessengerPluginBootstrap.cs.pp",
+        "content/net45/Bootstrap/MessengerPluginBootstrap.cs.pp",
+        "content/uap10.0/Bootstrap/MessengerPluginBootstrap.cs.pp",
+        "lib/MonoAndroid/MvvmCross.Plugins.Messenger.dll",
+        "lib/MonoAndroid/MvvmCross.Plugins.Messenger.pdb",
+        "lib/MonoAndroid/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "lib/Xamarin.Mac20/MvvmCross.Plugins.Messenger.dll",
+        "lib/Xamarin.Mac20/MvvmCross.Plugins.Messenger.pdb",
+        "lib/Xamarin.Mac20/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "lib/Xamarin.iOS10/MvvmCross.Plugins.Messenger.dll",
+        "lib/Xamarin.iOS10/MvvmCross.Plugins.Messenger.pdb",
+        "lib/Xamarin.iOS10/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "lib/dotnet/MvvmCross.Plugins.Messenger.dll",
+        "lib/dotnet/MvvmCross.Plugins.Messenger.pdb",
+        "lib/dotnet/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "lib/net45/MvvmCross.Plugins.Messenger.dll",
+        "lib/net45/MvvmCross.Plugins.Messenger.pdb",
+        "lib/net45/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Messenger.dll",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Messenger.pdb",
+        "lib/portable-net45+win+wpa81+wp80/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "lib/uap10.0/MvvmCross.Plugins.Messenger.dll",
+        "lib/uap10.0/MvvmCross.Plugins.Messenger.pdb",
+        "lib/uap10.0/MvvmCross.Plugins.Messenger.pdb.srcsrv",
+        "mvvmcross.plugin.messenger.5.2.1.nupkg.sha512",
+        "mvvmcross.plugin.messenger.nuspec"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -4303,6 +4351,7 @@
       "MvvmCross.Binding >= 5.2.1",
       "MvvmCross.Core >= 5.2.1",
       "MvvmCross.Platform >= 5.2.1",
+      "MvvmCross.Plugin.Messenger >= 5.2.1",
       "NETStandard.Library >= 1.6.1",
       "PCLStorage >= 1.0.2",
       "sqlite-net-pcl >= 1.6.292"
@@ -4356,6 +4405,10 @@
             "version": "[5.2.1, )"
           },
           "MvvmCross.Platform": {
+            "target": "Package",
+            "version": "[5.2.1, )"
+          },
+          "MvvmCross.Plugin.Messenger": {
             "target": "Package",
             "version": "[5.2.1, )"
           },

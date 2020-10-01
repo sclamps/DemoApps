@@ -35,12 +35,20 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib" />
-    <Reference Include="MvvmCross, Version=7.0.1.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\MvvmCross.7.0.1\lib\net461\MvvmCross.dll</HintPath>
+    <Reference Include="MvvmCross.Binding, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Binding.5.2.1\lib\net45\MvvmCross.Binding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Binding.Wpf, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Binding.5.2.1\lib\net45\MvvmCross.Binding.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Core, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\MvvmCross.Core.5.2.1\lib\net45\MvvmCross.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Localization, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Binding.5.2.1\lib\net45\MvvmCross.Localization.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Platform, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
@@ -49,6 +57,10 @@
     </Reference>
     <Reference Include="MvvmCross.Platform.Wpf, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\MvvmCross.Platform.5.2.1\lib\net45\MvvmCross.Platform.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Plugins.Messenger, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\MvvmCross.Plugin.Messenger.5.2.1\lib\net45\MvvmCross.Plugins.Messenger.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MvvmCross.Wpf, Version=5.2.1.0, Culture=neutral, PublicKeyToken=null">
@@ -110,6 +122,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
     <Compile Include="Services\CountersServiceTests.cs" />
     <Compile Include="ViewModels\CountersViewModelTests.cs" />
     <Compile Include="ViewModels\CounterViewModelsTests.cs" />

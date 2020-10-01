@@ -4,6 +4,7 @@ using Countr.Core.Models;
 using Countr.Core.Repositories;
 using Countr.Core.Services;
 using FakeItEasy;
+using MvvmCross.Plugins.Messenger;
 using NUnit.Framework;
 using Shouldly;
 
@@ -12,24 +13,26 @@ namespace Countr.Tests.Services
     [TestFixture]
     public class CountersServiceTests
     {
-        ICountersService subject;
-        ICounterRepository repo;
+        ICountersService _subject;
+        ICounterRepository _repo;
+        IMvxMessenger _messenger;
 
         [SetUp]
         public void SetUp ()
         {
-            repo = A.Fake<ICounterRepository> ();
-            subject = new CountersService (repo);
+            _repo = A.Fake<ICounterRepository> ();
+            _messenger = A.Fake<IMvxMessenger> ();
+            _subject = new CountersService (_repo, _messenger);
         }
 
         [Test]
         public async Task IncrementCounter ()
         {
             var counter = new Counter { Count = 0 };
-            await subject.IncrementCounter (counter);
+            await _subject.IncrementCounter (counter);
             
             counter.Count.ShouldBe (1);
-            A.CallTo (() => repo.Save (counter)).MustHaveHappenedOnceExactly ();
+            A.CallTo (() => _repo.Save (counter)).MustHaveHappenedOnceExactly ();
         }
 
         [Test]
@@ -39,9 +42,9 @@ namespace Countr.Tests.Services
                 new Counter { Name = "counter1" },
                 new Counter { Name = "counter2" },
             };
-            A.CallTo (() => repo.GetAll ()).Returns (counters);
+            A.CallTo (() => _repo.GetAll ()).Returns (counters);
 
-            var result = await subject.GetAllCounters ();
+            var result = await _subject.GetAllCounters ();
             result.ShouldBeSameAs (counters);
         }
 
@@ -49,13 +52,21 @@ namespace Countr.Tests.Services
         public async Task DeleteCounter ()
         {
             var counter = new Counter { Count = 0 };
-            await subject.IncrementCounter (counter);
+            await _subject.IncrementCounter (counter);
 
-            A.CallTo (() => repo.Save (counter)).MustHaveHappenedOnceExactly ();
+            A.CallTo (() => _repo.Save (counter)).MustHaveHappenedOnceExactly ();
 
-            await subject.DeleteCounter (counter);
+            await _subject.DeleteCounter (counter);
 
-            A.CallTo (() => repo.Delete (counter)).MustHaveHappenedOnceExactly ();
+            A.CallTo (() => _repo.Delete (counter)).MustHaveHappenedOnceExactly ();
+        }
+        
+        [Test]
+        public async Task DeleteCounter_PublishedMessage ()
+        {
+            await _subject.DeleteCounter (new Counter ());
+
+            A.CallTo (() => _messenger.Publish (A<CountersChangedMessage>.Ignored)).MustHaveHappenedOnceExactly ();
         }
     }
 }

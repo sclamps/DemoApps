@@ -1,5 +1,9 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Countr.Core.Models;
+using Countr.Core.Services;
 using Countr.Core.ViewModels;
+using FakeItEasy;
 using NUnit.Framework;
 using Shouldly;
 
@@ -9,11 +13,21 @@ namespace Countr.Tests.ViewModels
     public class CounterViewModelsTests
     {
         CounterViewModel _subject;
+        ICountersService _service;
 
         [SetUp]
         public void SetUp ()
         {
-            _subject = new CounterViewModel ();
+            _service = A.Fake<ICountersService> ();
+            _subject = new CounterViewModel (_service);
+        }
+
+        [Test]
+        public async Task IncrementCounter ()
+        {
+            await _subject.IncrementCommand.ExecuteAsync ();
+
+            A.CallTo (() => _service.IncrementCounter (A<Counter>.Ignored)).MustHaveHappenedOnceExactly ();
         }
 
         [Test]

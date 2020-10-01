@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[5.2.1, )"
             },
+            "MvvmCross.Plugin.Messenger": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -119,6 +123,10 @@
               "version": "[5.2.1, )"
             },
             "MvvmCross.Platform": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "MvvmCross.Plugin.Messenger": {
               "target": "Package",
               "version": "[5.2.1, )"
             },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b38r7wnz/TtndjnV24XwNX5KJihUTM/5HZ2u/GnKhKp2zuVprlO9XfTKkyrEmBrdJyjjNi9C35kUKYVWdW2tjw==",
+  "dgSpecHash": "QrXV7VDGrQ1RcUjaltMWBqNNUQfapOvbRdt7Nsskj033bJljVhgbLJoJPkaTbwSoIYJqnwznwRcP9br/lqLVxg==",
   "success": true,
   "projectFilePath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Droid/Countr.Droid.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/Users/scott.clampett/.nuget/packages/mvvmcross.droid.support.v7.appcompat/5.2.1/mvvmcross.droid.support.v7.appcompat.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/mvvmcross.droid.support.v7.recyclerview/5.2.1/mvvmcross.droid.support.v7.recyclerview.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/mvvmcross.platform/5.2.1/mvvmcross.platform.5.2.1.nupkg.sha512",
+    "/Users/scott.clampett/.nuget/packages/mvvmcross.plugin.messenger/5.2.1/mvvmcross.plugin.messenger.5.2.1.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/pclstorage/1.0.2/pclstorage.1.0.2.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/sqlite-net-pcl/1.6.292/sqlite-net-pcl.1.6.292.nupkg.sha512",
     "/Users/scott.clampett/.nuget/packages/sqlitepclraw.bundle_green/1.1.13/sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
