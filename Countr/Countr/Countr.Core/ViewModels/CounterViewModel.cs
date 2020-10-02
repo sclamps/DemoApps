@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Countr.Core.Models;
 using Countr.Core.Services;
+using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
 
 namespace Countr.Core.ViewModels
@@ -9,12 +10,17 @@ namespace Countr.Core.ViewModels
     {
         Counter _counter;
         ICountersService _service;
+        IMvxNavigationService _navigationService;
 
-        public CounterViewModel ( ICountersService service)
+        public CounterViewModel (ICountersService service, IMvxNavigationService navigationService)
         {
             _service = service;
+            _navigationService = navigationService;
+            
             IncrementCommand = new MvxAsyncCommand (IncrementCounter);
+            CancelCommand = new MvxAsyncCommand (Cancel);
             DeleteCommand = new MvxAsyncCommand (DeleteCounter);
+            SaveComand = new MvxAsyncCommand (Save);
         }
         
         public override void Prepare (Counter counter)
@@ -34,17 +40,31 @@ namespace Countr.Core.ViewModels
         public int Count => _counter.Count;
         
         public IMvxAsyncCommand IncrementCommand { get; }
+        public IMvxAsyncCommand CancelCommand { get; }
+        public IMvxAsyncCommand DeleteCommand { get; }
+        public IMvxAsyncCommand SaveComand { get; }
+        
         async Task IncrementCounter ()
         {
             await _service.IncrementCounter (_counter);
             RaisePropertyChanged (() => Count);
         }
         
-        public IMvxAsyncCommand DeleteCommand { get; }
 
         async Task DeleteCounter ()
         {
             await _service.DeleteCounter (_counter);
+        }
+        
+        async Task Cancel ()
+        {
+            await _navigationService.Close (this);
+        }
+
+        async Task Save ()
+        {
+            await _service.AddNewCounter (_counter.Name);
+            await _navigationService.Close (this);
         }
     }
 }

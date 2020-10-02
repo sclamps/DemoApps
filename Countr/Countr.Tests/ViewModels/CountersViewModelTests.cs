@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Countr.Core.Models;
 using Countr.Core.Repositories;
 using Countr.Core.Services;
 using Countr.Core.ViewModels;
 using FakeItEasy;
+using MvvmCross.Core.Navigation;
 using MvvmCross.Plugins.Messenger;
 using NUnit.Framework;
 using Shouldly;
@@ -18,6 +20,7 @@ namespace Countr.Tests.ViewModels
         CountersViewModel _subject;
         ICountersService _service;
         IMvxMessenger _messenger;
+        IMvxNavigationService _navigationService;
         Action<CountersChangedMessage> _publishAction;
 
         [SetUp]
@@ -25,7 +28,8 @@ namespace Countr.Tests.ViewModels
         {
             _service = A.Fake<ICountersService> ();
             _messenger = A.Fake<IMvxMessenger> ();
-            _subject = new CountersViewModel (_service, _messenger );
+            _navigationService = A.Fake<IMvxNavigationService> ();
+            _subject = new CountersViewModel (_service, _messenger, _navigationService);
         }
 
         [Test]

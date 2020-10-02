@@ -4,6 +4,7 @@ using Countr.Core.Models;
 using Countr.Core.Services;
 using Countr.Core.ViewModels;
 using FakeItEasy;
+using MvvmCross.Core.Navigation;
 using NUnit.Framework;
 using Shouldly;
 
@@ -14,12 +15,14 @@ namespace Countr.Tests.ViewModels
     {
         CounterViewModel _subject;
         ICountersService _service;
+        IMvxNavigationService _navigationService;
 
         [SetUp]
         public void SetUp ()
         {
             _service = A.Fake<ICountersService> ();
-            _subject = new CounterViewModel (_service);
+            _navigationService = A.Fake<IMvxNavigationService> ();
+            _subject = new CounterViewModel (_service, _navigationService);
         }
 
         [Test]

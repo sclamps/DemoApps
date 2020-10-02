@@ -21,6 +21,7 @@ namespace Countr.Core.Services
         {
             var counter = new Counter {Name = name};
             await _repository.Save (counter).ConfigureAwait (false);
+            _messenger.Publish (new CountersChangedMessage (this));
             return counter;
         }
 
