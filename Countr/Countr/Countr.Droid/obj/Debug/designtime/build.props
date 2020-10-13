@@ -22,6 +22,6 @@ TargetFrameworkVersion=v9.0
 AndroidCreatePackagePerAbi=
 AndroidGenerateJniMarshalMethods=False
 OS=Unix
-DesignTimeBuild=True
+DesignTimeBuild=true
 AndroidIncludeDebugSymbols=True
 AndroidPackageNamingPolicy=LowercaseCrc64

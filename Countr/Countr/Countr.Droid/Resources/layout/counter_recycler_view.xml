@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:local="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="20dp" android:textSize="16sp" local:MvxBind="Text Name" />
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3" android:textSize="16sp"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@id/imageButton"
+            android:layout_marginRight="20dp" local:MvxBind="Text Count" />
+    <ImageButton
+            android:src="@android:drawable/ic_input_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/imageButton" android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" android:layout_marginRight="20dp" android:background="#FFFFFF"
+            android:backgroundTint="#FFFFFF" local:MvxBind="Click IncrementCommand"/>
+</RelativeLayout>

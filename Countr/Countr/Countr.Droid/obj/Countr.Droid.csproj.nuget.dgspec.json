@@ -14,13 +14,14 @@
         "outputPath": "/Users/scott.clampett/Desktop/DemoApps/Countr/Countr/Countr.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/scott.clampett/.nuget/NuGet/NuGet.Config"
+          "/Users/scott.clampett/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard1.4"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/orbital-drop-bear/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard1.4": {
@@ -57,7 +58,6 @@
               "version": "[5.2.1, )"
             },
             "NETStandard.Library": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[1.6.1, )",
               "autoReferenced": true
@@ -74,7 +74,7 @@
           "imports": [
             "portable-net45+win8+wpa81"
           ],
-          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -89,13 +89,14 @@
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/scott.clampett/.nuget/NuGet/NuGet.Config"
+          "/Users/scott.clampett/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/orbital-drop-bear/api/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {

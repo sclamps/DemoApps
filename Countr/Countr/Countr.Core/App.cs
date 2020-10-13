@@ -1,3 +1,4 @@
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
 
 namespace Countr.Core
@@ -15,7 +16,7 @@ namespace Countr.Core
                 .EndingWith("Repository")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-
+            
             RegisterNavigationServiceAppStart<ViewModels.CountersViewModel>();
         }
     }

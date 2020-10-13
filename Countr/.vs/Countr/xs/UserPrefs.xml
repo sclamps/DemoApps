@@ -1,24 +1,35 @@
 ﻿<Properties StartupConfiguration="{D0F1C22D-91FA-4A50-87A1-DE0C2D3BBE3D}|Default">
   <MonoDevelop.Ide.ItemProperties.Countr.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Countr.Core FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Countr.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Countr.Tests/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Countr/Countr.Droid/Views/CounterView.cs">
     <Files>
-      <File FileName="Countr.Tests/Test.cs" Line="1" Column="1" />
+      <File FileName="Countr/Countr.Droid/Views/CountersView.cs" Line="20" Column="13" />
+      <File FileName="Countr/Countr.Droid/Views/CounterView.cs" Line="18" Column="42" />
+      <File FileName="Countr/Countr.Droid/Resources/layout/counters_view.xml" Line="2" Column="1" />
+      <File FileName="Countr/Countr.Droid/Resources/layout/counter_view.xml" Line="14" Column="65" />
+      <File FileName="Countr/Countr.Droid/Resources/menu/new_counter_menu.xml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Countr" expanded="True">
             <Node name="Countr.Core" expanded="True" />
-            <Node name="Countr.Tests" selected="True" />
+            <Node name="Countr.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+                <Node name="menu" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="CounterView.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Countr.Droid FirstBuild="True" PreferredExecutionTarget="Android.Galaxy_Nexus_API_29" />
+  <MonoDevelop.Ide.ItemProperties.Countr.Droid AndroidDesignerPreferredTheme="MyTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Galaxy_Nexus_API_29" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
