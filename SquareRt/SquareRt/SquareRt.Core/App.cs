@@ -1,3 +1,4 @@
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
 
 namespace SquareRt.Core
@@ -10,8 +11,10 @@ namespace SquareRt.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-
-            RegisterNavigationServiceAppStart<ViewModels.FirstViewModel>();
+            
+            Mvx.LazyConstructAndRegisterSingleton<ISquareRtCalculator, SquareRtCalculator> ();
+            
+            RegisterNavigationServiceAppStart<ViewModels.SquareRtViewModel>();
         }
     }
 }
