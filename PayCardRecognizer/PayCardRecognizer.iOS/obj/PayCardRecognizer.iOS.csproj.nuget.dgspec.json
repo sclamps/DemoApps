@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/PayCardRecognizer.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/PayCardRecognizer.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/PayCardRecognizer.iOS.csproj",
+        "projectName": "PayCardRecognizer.iOS",
+        "projectPath": "/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/PayCardRecognizer.iOS.csproj",
+        "packagesPath": "/Users/scott.clampett/.nuget/packages/",
+        "outputPath": "/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/scott.clampett/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {}
+      }
+    }
+  }
+}

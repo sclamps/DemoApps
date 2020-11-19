@@ -1,0 +1,6 @@
+/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/bin/Debug/NativeLibrary.dll
+/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/bin/Debug/NativeLibrary.pdb
+/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/obj/Debug/PayCardRecognizer.iOS.csprojAssemblyReference.cache
+/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/obj/Debug/PayCardRecognizer.iOS.csproj.CoreCompileInputs.cache
+/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/obj/Debug/NativeLibrary.dll
+/Users/scott.clampett/Desktop/DemoApps/PayCardRecognizer/PayCardRecognizer.iOS/obj/Debug/NativeLibrary.pdb
