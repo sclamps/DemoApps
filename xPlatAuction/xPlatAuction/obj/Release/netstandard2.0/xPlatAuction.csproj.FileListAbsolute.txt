@@ -1,0 +1,14 @@
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/bin/Release/netstandard2.0/xPlatAuction.deps.json
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/bin/Release/netstandard2.0/xPlatAuction.dll
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/bin/Release/netstandard2.0/ref/xPlatAuction.dll
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/bin/Release/netstandard2.0/xPlatAuction.pdb
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/xPlatAuction.csprojAssemblyReference.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/xPlatAuction.AssemblyInfoInputs.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/xPlatAuction.AssemblyInfo.cs
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/xPlatAuction.csproj.CoreCompileInputs.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/XamlC.stamp
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/xPlatAuction.dll
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/ref/xPlatAuction.dll
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/Release/netstandard2.0/xPlatAuction.pdb

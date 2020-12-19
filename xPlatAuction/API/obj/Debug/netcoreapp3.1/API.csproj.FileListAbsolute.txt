@@ -1,0 +1,15 @@
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/bin/Debug/netcoreapp3.1/API.deps.json
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/bin/Debug/netcoreapp3.1/API.dll
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/bin/Debug/netcoreapp3.1/API.pdb
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.AssemblyInfoInputs.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.AssemblyInfo.cs
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.csproj.CoreCompileInputs.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.RazorTargetAssemblyInfo.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/staticwebassets/API.StaticWebAssets.Manifest.cache
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/staticwebassets/API.StaticWebAssets.xml
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.dll
+/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/API/obj/Debug/netcoreapp3.1/API.pdb

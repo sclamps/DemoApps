@@ -1,0 +1,169 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction.iOS/xPlatAuction.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction.iOS/xPlatAuction.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction.iOS/xPlatAuction.iOS.csproj",
+        "projectName": "xPlatAuction.iOS",
+        "projectPath": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction.iOS/xPlatAuction.iOS.csproj",
+        "packagesPath": "/Users/scott.clampett/.nuget/packages/",
+        "outputPath": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/scott.clampett/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/orbital-drop-bear/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/xPlatAuction.csproj": {
+                "projectPath": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/xPlatAuction.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1687, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/xPlatAuction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/xPlatAuction.csproj",
+        "projectName": "xPlatAuction",
+        "projectPath": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/xPlatAuction.csproj",
+        "packagesPath": "/Users/scott.clampett/.nuget/packages/",
+        "outputPath": "/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/scott.clampett/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/orbital-drop-bear/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1687, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.Azure.Mobile.Client": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.8.0.1687, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>xPlatAuction</id>
+    <version>1.0.0</version>
+    <authors>xPlatAuction</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="Microsoft.Azure.Mobile.Client" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.8.0.1687" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Microsoft.Azure.Mobile.Client" version="4.2.0" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.Annotations" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.5.3.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.8.0.1687" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/bin/Debug/net48/xPlatAuction.dll" target="lib/net48/xPlatAuction.dll" />
+    <file src="/Users/scott.clampett/Desktop/DemoApps/xPlatAuction/xPlatAuction/bin/Debug/netstandard2.1/xPlatAuction.dll" target="lib/netstandard2.1/xPlatAuction.dll" />
+  </files>
+</package>
